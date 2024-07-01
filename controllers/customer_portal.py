@@ -52,5 +52,5 @@ class CustomersPortal(CustomerPortal):
             'pager': pager,
             'page_name': 'subscription',
         })
-        return request.render('subscription_package.portal_my_subscriptions',
+        return request.render('subs_portal.portal_my_subscriptions',
                               values)
